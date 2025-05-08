@@ -1,0 +1,19 @@
+{
+  "name": "anirban/summation",
+  "description": "Simple summation package",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "anirban\\summation\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "anirban\\summation\\CalculatorServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
